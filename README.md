@@ -2,7 +2,7 @@
 
 An interactive Flask dashboard that classifies short, tweet-like text as **Positive** or **Negative** using a TF-IDF + Linear SVM model. The live app is designed and maintained by **Deepak Polisetti**.
 
-> **Live demo:** [emotion-lens-deepak.vercel.app](https://emotion-lens-deepak.vercel.app)
+> **Live demo:** [emotion-lens-model.vercel.app](https://emotion-lens-model.vercel.app)
 
 ## Highlights
 
