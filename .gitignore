@@ -1,0 +1,23 @@
+# Local environments and Python caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large source data and reproducible training intermediates
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Only the assets required by the deployed dashboard are versioned
+models/*
+!models/.gitkeep
+!models/tweet_sentiment_tfidf_svm.joblib
+outputs/*
+!outputs/.gitkeep
+!outputs/metrics.json
+!outputs/top_weighted_terms.csv
+
+# Local logs and ad-hoc prediction exports
+*.log
+sentiment_results.csv

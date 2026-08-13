@@ -1,0 +1,31 @@
+term,weight,sentiment
+sad,-7.037724331152741,Negative
+poor,-4.610606412518433,Negative
+sadly,-4.537327054297583,Negative
+not happy,-4.433971956072731,Negative
+miss,-4.413109994983136,Negative
+missing,-4.408120575121341,Negative
+sick,-4.347998455334737,Negative
+passed away,-4.277283704057386,Negative
+not looking,-3.935108584826956,Negative
+unfortunately,-3.8681453188326795,Negative
+bummed,-3.8505041599124654,Negative
+died,-3.719769431534101,Negative
+inaperfectworld,-3.7097328717395754,Negative
+rip,-3.6775453313854927,Negative
+missed,-3.5941355361194938,Negative
+not miss,2.937697533584321,Positive
+not hurt,2.9463897782923003,Positive
+no hangover,2.998950379641774,Positive
+never too,3.015723449133829,Positive
+not problem,3.0176433116578227,Positive
+swim anyone,3.1040658232559974,Positive
+not worried,3.107659545257286,Positive
+no problems,3.158134984019518,Positive
+no worries,3.250731668523841,Positive
+not sad,3.437207229115,Positive
+cannot wait,3.640076167725094,Positive
+not bad,3.8664656488907507,Positive
+cant wait,4.071467985083418,Positive
+no problem,4.073315801751321,Positive
+not wait,4.732134881158715,Positive
