@@ -1,8 +1,24 @@
+<p align="center">
+  <img src="static/thumbnail.png" alt="Emotion Lens — Tweet Sentiment Analysis Banner" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+</p>
+
 # Emotion Lens — Tweet Sentiment Analysis
 
-An interactive Flask dashboard that classifies short, tweet-like text as **Positive** or **Negative** using a TF-IDF + Linear SVM model. The live app is designed and maintained by **Deepak Polisetti**.
+<p align="left">
+  <img src="static/apple-touch-icon.png" width="48" height="48" alt="Emotion Lens Icon" align="left" style="margin-right: 12px; border-radius: 10px;">
+  <strong>Emotion Lens</strong> is an interactive machine learning dashboard that classifies short, tweet-like text into <strong>Positive</strong> or <strong>Negative</strong> sentiment using a TF-IDF vectorizer and a Linear SVM model. Designed and maintained by <strong>Deepak Polisetti</strong>.
+</p>
 
-> **Live demo:** [emotion-lens-model.vercel.app](https://emotion-lens-model.vercel.app)
+<br>
+
+<p align="left">
+  <a href="https://emotion-lens-model.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-emotion--lens--model.vercel.app-705cfa?style=for-the-badge&logo=vercel" alt="Live Demo"></a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge" alt="License"></a>
+</p>
+
+> **Live demo:** [https://emotion-lens-model.vercel.app](https://emotion-lens-model.vercel.app)  
+> **Bookmark & Shortcut:** Supports full Chrome bookmarks, desktop shortcuts, Android/iOS home screen icons, and Open Graph social sharing previews.
 
 ## Highlights
 

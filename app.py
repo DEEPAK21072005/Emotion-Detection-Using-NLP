@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 import joblib
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, send_from_directory
 
 
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -51,6 +51,24 @@ def clean_tweet(text: str) -> str:
 def index():
     """Render the dashboard."""
     return render_template("index.html")
+
+
+@app.get("/favicon.ico")
+def favicon():
+    """Serve the root favicon."""
+    return send_from_directory(PROJECT_DIR / "static", "favicon.ico", mimetype="image/vnd.microsoft.icon")
+
+
+@app.get("/manifest.webmanifest")
+def manifest():
+    """Serve the web app manifest for Chrome home screen/bookmark support."""
+    return send_from_directory(PROJECT_DIR / "static", "manifest.webmanifest", mimetype="application/manifest+json")
+
+
+@app.get("/apple-touch-icon.png")
+def apple_touch_icon():
+    """Serve the touch icon for mobile and desktop shortcuts."""
+    return send_from_directory(PROJECT_DIR / "static", "apple-touch-icon.png", mimetype="image/png")
 
 
 @app.get("/api/metrics")
